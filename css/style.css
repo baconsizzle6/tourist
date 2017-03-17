@@ -1,5 +1,23 @@
 body { 
 	margin: 0 auto;
 	font-size: 16px;
-	
+	max-width: 1200px;
 }
+
+.menu {
+	width: 100%;
+	text-align: center;
+
+}
+.menu ul {
+	display: inline;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #222;
+}
+ul li .sub-menu {
+	display: none;
+}
+
