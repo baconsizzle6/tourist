@@ -4,9 +4,11 @@ body {
 	margin: 0 auto;
 	font-size: 16px;
 	max-width: 1200px;
+	min-width: 300px;
 }
 section {
-	height: 400px;
+
+	height: 600px;
 }
 
 
@@ -47,7 +49,7 @@ section {
 	letter-spacing: .3em;
 }
 .open{
-    height: 233px; 
+    height: 190px; 
     
 }
 
@@ -70,17 +72,17 @@ li:hover {
 	background-color: #666;
 }
 
-ul li .sub-menu {
-	display: none;
-}
+
+
 
 /*HERO IMAGE*/
 .hero {
 	width: 100%;
 	height: 400px;
-	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)),url(../img/park_4.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)),url(../img/a1.jpg);
     background-size:cover;
     display: flex;
+    margin: 0 auto;
 }
 .hero h2 {
 	font-family: 'Hind', sans-serif;
@@ -106,6 +108,7 @@ h3 {
 
 p {
 	padding: 0 20px 10px;
+	font-family: 'Hind', sans-serif;
 }
 
 #learn{
