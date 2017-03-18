@@ -10,6 +10,25 @@ section {
 
 	height: 600px;
 }
+h3 {
+	margin: 0;
+	padding: 30px 0 10px;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+p {
+	padding: 0 20px 10px;
+	font-family: 'Hind', sans-serif;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
 
 
 /*HEADER*/
@@ -69,10 +88,8 @@ section {
 	color: #fff;
 }
 li:hover {
-	background-color: #666;
+	background-color: #006e34;
 }
-
-
 
 
 /*HERO IMAGE*/
@@ -97,47 +114,153 @@ li:hover {
 
 /*MAIN SECTION*/
 
+
 /*LEARN MORE*/
-
-h3 {
-	margin: 0;
-	padding: 30px 0 10px;
-	font-size: 20px;
-	text-transform: capitalize;
-}
-
-p {
-	padding: 0 20px 10px;
-	font-family: 'Hind', sans-serif;
-}
-
 #learn{
-	background-color: pink;
 	text-align: center;
+	padding-top: 20px;
+}
+.learn_image {
+	display: none;
+	padding-bottom: 20px;
 }
 
+/*DISCOVER*/
 #discover {
-	background-color: orange;
+	height: auto;
+	background-color: #e9e9e9;
+	padding: 0 10px;
 }
-
-#camp {
-	background-color: blue;
+#discover img {
+	padding-bottom: 0;
 }
-
+/*VISIT US*/
 #visit {
-	background-color: gray;
+	height: auto;
+	clear: both;
+	padding: 0 10px 30px;
+	text-align: center;
+
 }
 
+
+/*CONTACT*/
 #contact {
-	background-color: purple;
+	clear: both;
+	padding: 0 40px 10px;
+	
+}
+#contact h3 {
+	padding-bottom: 30px;
+}
+
+input[type=text], textarea {
+
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #a5a5a5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+input[type=submit]:hover {
+	background-color: #006e34;
 }
 
 
 
 
+/*MEDIA QUERIES*/
 
 
+/*Tablet*/
 
+@media (min-width: 768px) {
+	#learn{
+		padding: 0 10px;
+	}
+	.learn_image {
+		display: block;
+		
+	}
+	#discover {
+		height: 625px;
+		clear: both;
+	}
+	.column_1, .column_2 {
+		width: 50%;
+		vertical-align: bottom;
+	}
+	.column_1{
+		float: left;
+		
+	}
+	.column_2 {
+		float: right;
+	}
+	
+	.container {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+
+}
+
+
+/*Desktop*/
+
+@media (min-width: 1040px) {
+
+	.hamburger {
+    	display: none;
+	}
+
+	.menu {
+		width: 58%;
+    	height: 40px;
+    	display: inline-block;
+    	float: right;
+    	padding: 20px 0 0 0;
+    	background-color: #fff;
+
+	}
+	nav ul li {
+  		font-size: .85em;
+    	float: left;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: #666;
+	}
+	li:hover { 
+		background-color: #eee;
+	}
+	.hero {
+		height: 600px;
+	}
+
+	.learn_image {
+		display: block;
+	}
+	#discover {
+		height: 627px;
+	}
+	#discover img {
+		overflow: hidden;
+	}
+}
 
 
 
