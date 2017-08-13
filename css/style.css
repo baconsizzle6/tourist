@@ -191,9 +191,7 @@ input[type=submit]:hover {
 /*Tablet*/
 
 @media (min-width: 768px) {
-	#learn{
-		padding: 0 10px;
-	}
+	
 	.learn_image {
 		display: block;
 		
