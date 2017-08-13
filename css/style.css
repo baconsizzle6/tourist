@@ -68,7 +68,7 @@ img {
 	letter-spacing: .3em;
 }
 .open{
-    height: 190px; 
+    height: 195px; 
     
 }
 
@@ -96,7 +96,7 @@ li:hover {
 .hero {
 	width: 100%;
 	height: 400px;
-	background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)),url(../img/a1.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)),url(../img/a_web.jpg);
     background-size:cover;
     display: flex;
     margin: 0 auto;
@@ -258,7 +258,7 @@ input[type=submit]:hover {
 		display: block;
 	}
 	#discover {
-		height: 627px;
+		height: 650px;
 	}
 	#discover img {
 		overflow: hidden;
